@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-gray-700">
           <li><a href="#" className="hover:text-blue-600">Home</a></li>
-          <li><a href="#" className="hover:text-blue-600">Calenda</a></li>
+          <li><a href="#" className="hover:text-blue-600">Calendar</a></li>
           <li><a href="#" className="hover:text-blue-600">Weight</a></li>
           <li><a href="#" className="hover:text-blue-600">Contact</a></li>
         </ul>
@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden mt-2 space-y-2 px-4">
           <a href="#" className="block text-gray-700 hover:text-blue-600">Home</a>
-          <a href="#" className="block text-gray-700 hover:text-blue-600">Calenda</a>
+          <a href="#" className="block text-gray-700 hover:text-blue-600">Calendar</a>
           <a href="#" className="block text-gray-700 hover:text-blue-600">Weight</a>
           <a href="#" className="block text-gray-700 hover:text-blue-600">Contact</a>
         </div>
